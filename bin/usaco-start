@@ -1,0 +1,37 @@
+#!/usr/bin/env python
+
+USACO_ID = "nasiles1"
+
+TEMPLATE = """/*
+ID: ${id}
+LANG: C
+TASK: ${prob}
+*/
+#include <stdio.h>
+
+int main()
+{
+    FILE *fin = fopen("${prob}.in", "r");
+    FILE *fout = fopen("${prob}.out", "w");
+
+
+    return 0;
+}
+"""
+
+if __name__ == "__main__":
+    import os, sys
+    from string import Template
+
+    if len(sys.argv) != 2:
+        print "Usage: usaco-start prob"
+        sys.exit(1)
+
+    prob = sys.argv[1]
+
+    os.mkdir(prob)
+    open(os.path.join(prob, prob + '.in'), 'w').close()
+    f = open(os.path.join(prob, prob + '.c'), 'w')
+    f.write(Template(TEMPLATE).substitute({'id': USACO_ID, 'prob': prob}))
+    f.close()
+
