@@ -4,7 +4,7 @@ LANG: C
 TASK: test
 */
 #include <stdio.h>
-main () {
+int main () {
     FILE *fin  = fopen ("test.in", "r");
     FILE *fout = fopen ("test.out", "w");
     int a, b;

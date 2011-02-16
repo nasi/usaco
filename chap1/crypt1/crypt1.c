@@ -19,7 +19,7 @@ int check(int val, int len)
     return 1;
 }
 
-int solve(int idx)
+void solve(int idx)
 {
     int i, x, y;
     if (idx == 5) {

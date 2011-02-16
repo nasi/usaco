@@ -37,7 +37,7 @@ int main()
     FILE *fin = fopen("namenum.in", "r");
     FILE *fout = fopen("namenum.out", "w");
     FILE *dict = fopen("dict.txt", "r");
-    char s[20], t[20]; int i;
+    char s[20], t[20];
 
     fscanf(fin, "%s", s); reslen = strlen(s);
     while (fscanf(dict, "%s", t) != EOF) {

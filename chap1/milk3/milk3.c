@@ -4,9 +4,11 @@ LANG: C
 TASK: milk3
 */
 #include <stdio.h>
+#include <string.h>
 #define min(X, Y) ((X) < (Y) ? (X) : (Y))
 
-int a, b, c, p[21][21][21] = {0};
+int a, b, c;
+int p[21][21][21];
 
 
 void solve(int x, int y, int z)
@@ -30,6 +32,7 @@ int main()
     FILE *fout = fopen("milk3.out", "w");
     int i, j, f, res[21], top = 0;
 
+    memset(p, 0, sizeof(p));
     fscanf(fin, "%d %d %d", &a, &b, &c);
     solve(0, 0, c);
     for (i = 0; i <= 20; i++) {
