@@ -10,18 +10,6 @@ TASK: clocks
 int c, orig = 0, map[265000], queue[MAXSIZE], prev[MAXSIZE], op[MAXSIZE], head, tail, curr;
 int m[9] = {27, 7, 54, 73, 186, 292, 216, 448, 432};
 
-void display(int x)
-{
-	int i, t;
-	for (i = 0; i < 9; i++) {
-		t = (x>>(i*2) & 3) * 3;
-		if (t == 0) t = 12;
-		printf("%d ", t);
-		if ((i+1) % 3 == 0) printf("\n");
-	}
-	printf("\n");
-}
-
 int move(int curr, int i)
 {
 	int j, t;
