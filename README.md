@@ -10,14 +10,14 @@ held throughout the year. (from [Wikipedia](http://en.wikipedia.org/wiki/United_
 
 ## Training
 
-The USACO contains several training pages on its website which are
+The USACO contains several [training pages](http://ace.delos.com/usacogate) on its website which are
 designed to develop one's skills in programming solutions to difficult
 and varied algorithmic problems at one's own pace. In addition to around
 100 problems, there are texts on programming techniques such as greedy
 algorithms, dynamic programming, shortest path, and many others. Enthusiasts
 find the training pages so useful that people from other countries use
 them to prepare for their own national Olympiads; those from other countries
-in fact outnumber U.S. participants. (from [Wikipedia](http://en.wikipedia.org/wiki/United_States_of_America_Computing_Olympiad#Training_pages));
+in fact outnumber U.S. participants. (from [Wikipedia](http://en.wikipedia.org/wiki/United_States_of_America_Computing_Olympiad#Training_pages))
 
 ## Contact
 
